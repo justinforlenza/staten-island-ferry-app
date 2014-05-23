@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Staten Island Ferry</string>
+   <!-- <string name="hello_world">Hello world!</string>  --> 
+    <string name="large_text">The Next Ferry Departure Is At:</string>
+    <string name="refresh">Refresh</string>
+    <string name="siny">Whitehall</string>
+    <string name = "time">The next ferry will depart in approximately</string>
+    <string name = "nysi">St. George</string>
+    <string name = "terminal">Terminal:</string>
+	<string name = "bol">null</string>
+	<string name = "prompt">Terminal</string>
+	<string-array name="terminal">
+	    <item>St. George Terminal</item>
+        <item>Whitehall Terminal</item>
+	</string-array>
+	
+</resources>
