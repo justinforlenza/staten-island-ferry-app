@@ -170,7 +170,7 @@ public class MainActivity extends Activity {
 		
      }
     
-    public void execute(View view){
+    public void execute(View view){						//Executes the app's function for view based items.
         Spinner ClassSpinner = (Spinner)findViewById(R.id.spinner1);
         String term = ClassSpinner.getSelectedItem().toString();
     	TextView ferryTime = (TextView)findViewById(R.id.ferrytime);		
@@ -189,7 +189,7 @@ public class MainActivity extends Activity {
     	timeleft.setText(timLef);
     }
 
-    public void exe(){
+    public void exe(){									//Executes the app's 
         TextView ferryTime = (TextView)findViewById(R.id.ferrytime);		
         TextView timeleft = (TextView)findViewById(R.id.timeto);
     	
