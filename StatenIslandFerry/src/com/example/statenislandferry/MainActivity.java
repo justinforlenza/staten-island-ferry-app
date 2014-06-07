@@ -153,7 +153,7 @@ public class MainActivity extends Activity {
     	String ti;
     	int hour = tme/100;
     	int min = tme%100;
-    	if (hour > 12){
+    	if (hour >= 12){
     		hour = hour - 12;
     		ti = "pm";
     	} else {
