@@ -20,8 +20,7 @@ public class MainActivity extends Activity {
     }
     protected void onResume(){
     	super.onResume();
-    	exe();
-    	
+    	exe();	
     }
     
 	static int[] satTimes = new int[] {0,30,100,200,300,400,500,600,630,700,730,800,830,900,930,1000,1030,1100,1130,1200,1230,1300,1330,1400,1430,1500,1530,1600,1630,1700,1730,1800,1830,1900,2000,2100,2200,2300,2400};
